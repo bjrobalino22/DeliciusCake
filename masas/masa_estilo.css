@@ -1,0 +1,251 @@
+/*Estilos de la cabeza de la pagina web*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+header {
+    width: 100%;
+    background: url(../imagenes/bg.jpg) #281a0c;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+header .contenedor {
+    position: relative;
+    height: 660px;
+}
+
+header .menu {
+    width: 100%;
+    text-align: right;
+}
+
+header .menu a {
+    color: #0000006c;
+    font-size: 20px;
+    font-weight: 300px;
+    font-family: "Playwrite DK Uloopet", cursive;
+
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .menu a:hover {
+    color: rgb(252, 155, 255);
+}
+
+header .texto {
+    width: 100%;
+    color: #000000;
+    position: absolute;
+    font-family: "Playwrite CU", cursive;
+    top: 50%;
+    margin-top: -52px;
+}
+
+header .texto .nombre {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+header .texto .nombre span {
+}
+header .texto h3 {
+    font-weight: 300;
+    font-size: 25px;
+    font-family: italic;
+}
+
+/* Estilos generales */
+
+
+.productos-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .producto {
+    text-align: center;
+    width: 200px; /* Ancho de cada producto */
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .producto img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Transición para el efecto de escala */
+  }
+  
+  .producto:hover img {
+    transform: scale(1.1); /* Efecto de escala al pasar el cursor */
+  }
+  
+  .producto h3 {
+    margin-top: 10px;
+  }
+  
+  .producto p {
+    font-size: 14px;
+    color: #666;
+  }
+
+
+#inicio h2{
+    text-align: center
+
+}
+
+#contenedor_masa{
+
+padding-top: 50px;
+
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.producto p {
+    color: #666;
+    font-size: 14px;
+}
+
+
+
+@media (max-width: 768px) {
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .productos-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .seccion {
+        padding: 20px;
+    }
+}
+footer {
+    background-color: #5f425b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+   
+}
+footer .social-icons a i {
+    color: rgb(255, 255, 255);
+    
+}
+footer .social-icons a i:hover {
+    text-decoration: underline;
+    color: rgb(252, 155, 255);
+}

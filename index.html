@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+25&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-<HASH>" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Playwrite+DK+Uloopet:wght@100..400&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <title>Delicius Cake</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="index.html" id="btn-acerca-de">Acerca de</a>
+                <a href="postres/postres.html" id="btn-postres">Postres</a>
+                <a href="pasteles/pasteles.html" id="btn-pasteles">Pasteles</a>
+                <a href="masas/masa.html" id="btn-masas">Masas</a>
+            </nav>
+            <div class="texto">
+                <h1 class="nombre">Delicius <span>Cake</span></h1>
+                <h3>Expertos en repostería, ofrecemos una variedad de postres, bocaditos, masas congeladas y pasteles
+                    artesanales.
+                </h3>
+            </div>
+        </div>
+    </header>
+    <!--Section main-->
+    <section class="main">
+        <!--Seccion Acerca de-->
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img class="logo_acercade" src="imagenes/logo.png" alt="Imagen de cafeteria">
+                </div>
+                <article>
+                    <h3>Delicius Cake</h3>
+                    <p class="texto-central">Delicius Cake, ven, conocenos. <br>
+                        En nuestra pastelería, nos apasiona crear delicias que hagan cada ocasión especial. Desde
+                        pasteles de cumpleaños hasta postres personalizados, cada uno de nuestros productos está hecho
+                        con ingredientes de calidad y mucho amor. Aquí encontrarás una variedad de sabores y diseños
+                        únicos que se adaptan a tus gustos.
+
+                        En Delicius Cake, queremos que cada bocado sea una experiencia inolvidable. ¡Explora nuestro
+                        catálogo y descubre cómo podemos endulzar tus momentos más importantes! Tu aventura dulce
+                        comienza aquí.
+                   
+                </article>
+            </div>
+
+        </section>
+        <!--Fin acerca de -->
+        <!--Fin menu-->
+        <section>
+            <div class="contenedor">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-item"><img src="imagenes/11.jpg" alt="Imagen 1"></div>
+                        <div class="carousel-item"><img src="imagenes/22.jpg" alt="Imagen 2"></div>
+                        <div class="carousel-item"><img src="imagenes/33.jpg" alt="Imagen 3"></div>
+                        <div class="carousel-item"><img src="imagenes/44.jpg" alt="Imagen 3"></div>
+                        <div class="carousel-item"><img src="imagenes/55.jpg" alt="Imagen 3"></div>
+                        <div class="carousel-item"><img src="imagenes/66.jpg" alt="Imagen 3"></div>
+                        <div class="carousel-item"><img src="imagenes/77.jpg" alt="Imagen 3"></div>
+                        <div class="carousel-item"><img src="imagenes/88.jpg" alt="Imagen 3"></div>
+
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-control" onclick="prevSlide()">&#10094;</button>
+                        <button class="carousel-control" onclick="nextSlide()">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicación</h3>
+            </div>
+            <div class="direccion">
+                <center>
+                    <p class="calle"><br /></p><br>
+                </center>
+            </div>
+
+
+
+        </section>
+        <!--Fin contactos-->
+        <!--Inicio mapa-->
+        <section class=" mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d592.861724230713!2d-78.99679424503421!3d-1.5898673121351314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d316407ea0bb35%3A0xae1abe9f53265548!2sJoaquina%20Galarza%20110%2C%20Guaranda!5e0!3m2!1ses!2sec!4v1721067955268!5m2!1ses!2sec"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!--finde mapa-->
+        <section> <p>CONTACTO:</p>
+            <center>
+                <p class="telefono">0995732785</p>
+            </center>
+            <center>
+                <p class="correo"> Delicius_cake06@hotmail.com</p>
+            </center><br>
+            </p></section>
+       
+    </section>
+    <!--fin seccion main-->
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 Delicius Cake. Todos los derechos reservados. Guaranda - Ecuador</p>
+    <p>
+    </p>
+    <div class="social-icons">
+        <a href="https://api.whatsapp.com/send/?phone=%2B593995732785&text&type=phone_number&app_absent=0"
+            id="btn-acerca-de"><i class="fab fa-whatsapp"></a></i>
+        <a href="https://www.facebook.com/DeliciusCake/" id="btn-acerca-de"><i class="fab fa-facebook-square"></a></i>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:Delicius_cake06@hotmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+
+    </div>
+</footer>
+
+</html>
